@@ -9106,7 +9106,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 42644,
             "candidate": 300,
             "affected_candidate": 300,
-            "global_multiplier": -0.005
+            "global_multiplier": -0.01
         }
     }
 ]
@@ -11163,7 +11163,7 @@ endingPicker = (out, totv, aa, quickstats) => {
 <p>The Nation Alliance will fall apart and they will replace you, with a more competent person, <strong><span style="color: #ff0000;">&Ouml;zg&uuml;r &Ouml;zel</span></strong>. Next year, he will lead the <span style="color: #ff0000;"><strong>CHP</strong></span> to its first victory in decades in the local elections. He won't make the same mistakes you did, he will nominate <strong><span style="color: #ff0000;">Ekrem İmamoğlu</span> </strong>for president. <strong><span style="color: #ff0000;">Ekrem İmamoğlu</span>&nbsp;</strong>will get arrested for "corruption", and they will say he is inelligble to run because his diploma isn't "valid". Thousands will get arrested for protesting the arrest of their candidate, or simply voicing their opinions. Turkey will turn into a full dictatorship.</p>
 <p>And all of that, is your fault.</p>`;
     }
-    if(quickstats[1] < 43.3) {
+    if(quickstats[1] < 47) {
         setImage("https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:qj7lcfou2kkwkhrkhf2drtoo/bafkreidecbhmer7pip4b3ipd6hr2y6moyeinfcenwvf3wybfhjoz6y4qfm@jpeg");
         return `<h1 style="text-align: center;"><span style="color: #ff0000;"><strong>YOU LOST IN THE SECOND ROUND</strong></span></h1>
 <p><span style="color: #ff0000;"><strong>You've failed.</strong></span></p>
@@ -11221,7 +11221,7 @@ campaignTrail_temp.jet_data = [{
             "value": 0,
             "endingImage": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:qj7lcfou2kkwkhrkhf2drtoo/bafkreidecbhmer7pip4b3ipd6hr2y6moyeinfcenwvf3wybfhjoz6y4qfm@jpeg",
             "endingText": "<h1 style=\"text-align: center;\"><span style=\"color: #ff0000;\"><strong>YOU LOST IN THE SECOND ROUND</strong></span></h1>\n<p><span style=\"color: #ff0000;\"><strong>You've failed.</strong></span></p>\n<p>You've failed millions of people who were counting on you. Who were hoping for a better, a more democratic Turkey, but you've failed them. Why? Because of your personal ambitions. You just had to be the one to beat <strong><span style=\"color: #ff9900;\">Erdoğan</span></strong>. But what happened? You lost. Along with the millions of people who were just hoping for a better future.</p>\n<p>The Nation Alliance will fall apart and they will replace you, with a more competent person, <strong><span style=\"color: #ff0000;\">&Ouml;zg&uuml;r &Ouml;zel</span></strong>. Next year, he will lead the <span style=\"color: #ff0000;\"><strong>CHP</strong></span> to its first victory in decades in the local elections. He won't make the same mistakes you did, he will nominate <strong><span style=\"color: #ff0000;\">Ekrem İmamoğlu</span> </strong>for president. <strong><span style=\"color: #ff0000;\">Ekrem İmamoğlu</span>&nbsp;</strong>will get arrested for \"corruption\", and they will say he is inelligble to run because his diploma isn't \"valid\". Thousands will get arrested for protesting the arrest of their candidate, or simply voicing their opinions. Turkey will turn into a full dictatorship.</p>\n<p>And all of that, is your fault.</p>",
-            "amount": "43.3"
+            "amount": "47"
         }
     },
     "banner_enabled": true,
