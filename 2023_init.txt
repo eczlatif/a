@@ -1,0 +1,259 @@
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 25,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 20,
+        "fields": {
+            "year": 2023,
+            "display_year": "2023",
+            "summary": "<h1 style=\"text-align: center;\"><span style=\"color: #ff0000;\"><strong>THE LAST ELECTION</strong></span></h1>\n<p>For many, this election is the last chance to defeat <strong><span style=\"color: #ff9900;\">Erdoğan</span> </strong>and bring democracy back to Turkey.</p>\n<p>Will <strong><span style=\"color: #ff0000;\">Kemal Kılı&ccedil;daroğlu</span> </strong>and the Table of Six be able to capitalize on this opportunity, or will Turkey continue to sink into <span style=\"color: #ff9900;\"><strong>Erdoğan</strong></span>'s dictatorship?</p>\n<p>&nbsp;</p>",
+            "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:qj7lcfou2kkwkhrkhf2drtoo/bafkreiehkpdh2nsvoyoe3ki344gdjbaea5rjlknvi6huglso47qr73fmse@jpeg",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:qj7lcfou2kkwkhrkhf2drtoo/bafkreigtvih33v73jf5qst35coxc4lub7mvd2yh66uqzdwwxy7cd4fitsm@jpeg",
+            "recommended_reading": "<a href=https://dn790008.ca.archive.org/0/items/WhyNationsFailTheOriginsODaronAcemoglu/Why-Nations-Fail_-The-Origins-o-Daron-Acemoglu.pdf>Why Nations Fail</a>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "../static/images/2012-no-majority.jpg"
+        }
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 20,
+        "year": 2016,
+        "is_premium": 0,
+        "display_year": "2023"
+    }
+]
+
+campaignTrail_temp.credits = "Eczlatif"
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 300,
+        "fields": {
+            "first_name": "Kemal",
+            "last_name": "Kılıçdaroğlu",
+            "election": 20,
+            "party": "Republican People's Party (CHP) ",
+            "state": "Tunceli",
+            "priority": 1,
+            "description": "<p>The leader of the <strong><span style=\"color: #ff0000;\">Republican People's Party</span> </strong>(<strong><span style=\"color: #ff0000;\">CHP</span></strong>) and the joint candidate of the Nation Alliance.<br /><br /><strong><span style=\"color: #ff0000;\">Kılı&ccedil;daroğlu</span> </strong>has dedicated his life and political career to democracy. D<span class=\"HwtZe\" lang=\"en\"><span class=\"jCAhz ChMk0b\"><span class=\"ryNqvb\">espite his Alevi identity, he has managed to become the leader of the main opposition party in Turkey.</span></span></span>&nbsp;He has previously tried and failed countless times to defeat <strong><span style=\"color: #ff9900;\">Erdoğan</span></strong>. Kılı&ccedil;daroğlu is seen as the weakest candidate to take on Erdoğan and because of that, many people have opposed and attempted to prevent his candidacy, this includes his largest alliance partner, <span style=\"color: #00ccff;\"><strong>Meral Akşener</strong></span>, the leader of the <strong><span style=\"color: #00ccff;\">İYİ Party</span></strong>.<br /><br />Will <span style=\"color: #ff0000;\"><strong>Kılı&ccedil;daroğlu</strong> </span>finally be able defeat <strong><span style=\"color: #ff9900;\">Erdoğan</span> </strong>and prove them wrong?</p>",
+            "color_hex": "#e30613",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:qj7lcfou2kkwkhrkhf2drtoo/bafkreihfasusfk7upkwv5b4fdewuxrcrpnefwzbkf2arwrm2vkwss66gme@jpeg",
+            "electoral_victory_message": "",
+            "electoral_loss_message": "",
+            "no_electoral_majority_message": "",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 301,
+        "fields": {
+            "first_name": "Recep Tayyip",
+            "last_name": "Erdoğan",
+            "election": 20,
+            "party": "'",
+            "state": "'",
+            "priority": 1,
+            "description": "'",
+            "color_hex": "#df8200",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>This is a running mate description it only shows for running mates</p>",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 302,
+        "fields": {
+            "first_name": "Sinan",
+            "last_name": "Oğan",
+            "election": 20,
+            "party": "'",
+            "state": "'",
+            "priority": 1,
+            "description": "'",
+            "color_hex": "#804040",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 42416,
+        "fields": {
+            "first_name": "Muharrem",
+            "last_name": "İnce",
+            "election": 20,
+            "party": "'",
+            "state": "'",
+            "priority": 1,
+            "description": "'",
+            "color_hex": "#0080ff",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "'",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50002,
+        "fields": {
+            "first_name": "Nation",
+            "last_name": "‎Alliance",
+            "election": 20,
+            "party": "The Table of Six",
+            "state": "Turkey",
+            "priority": 1,
+            "description": "",
+            "color_hex": "#e30613",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:qj7lcfou2kkwkhrkhf2drtoo/bafkreibs7d6krhjcifzqracrvhq566bqdibprqwtgpnkssjxc5flj7zgbq@jpeg",
+            "electoral_victory_message": "",
+            "electoral_loss_message": "",
+            "no_electoral_majority_message": "",
+            "description_as_running_mate": "<p>This alliance, currently comprised of the <strong><span style=\"color: #ff0000;\">Republican People's Party</span></strong>, the <strong><span style=\"color: #00ccff;\">İYİ Party</span></strong>, the <span style=\"color: #3366ff;\"><strong>Deva Party</strong></span>, the <strong><span style=\"color: #008000;\">Future Party</span></strong>, the <strong><span style=\"color: #800000;\">Felicity Party</span></strong>, and the <strong><span style=\"color: #ff00ff;\">Democrat Party</span></strong>, was initially formed in 2018 as a reaction to the new constitution expanding the presidential powers of Erdoğan.<br /><br />The primary goals of this alliance are to defeat <span style=\"color: #ff9900;\"><strong>Erdoğan</strong></span>, transition Turkey to a Strengthened Parliamentary System, and fix the economy<br /><br />Will the Nation Alliance be able to put aside their differences and put an end to Erdoğan's regime, or will it fail to beat <strong><span style=\"color: #ff9900;\">Erdoğan </span></strong>once again?</p>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 97519,
+        "fields": {
+            "candidate": 300,
+            "running_mate": 50002
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 20,
+        "candidates": [
+            300,
+            301,
+            302,
+            42416
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 20,
+        "candidates": [
+            300,
+            301,
+            302,
+            42416
+        ]
+    }
+]
+
+jet_data = {
+    "headerColor": "#e30613",
+    "windowColor": "#ffffff",
+    "containerColor": "#e30613",
+    "innerWindowColor": "#ffffff",
+    "bannerImageUrl": "",
+    "backgroundImageUrl": "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:qj7lcfou2kkwkhrkhf2drtoo/bafkreihv56eoiybh56g7mkgct6xmxsa7b65jzj3ush3s55biplawywohsq@jpeg",
+    "endingTextColor": "#000000",
+    "customQuote": "Ben Kemal, Geliyorum.",
+    "gameTitle": "THE KILIÇDAR TRAIL"
+}
+
+//#startcode
+
+
+corrr = '\n              <h2>THE KILIÇDAR TRAIL</h2>\n            ';
+
+RecReading = true
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#e30613";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#ffffff";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#e30613";
+
+document.getElementById("header").src = "";
+
+document.body.background = "https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:qj7lcfou2kkwkhrkhf2drtoo/bafkreihv56eoiybh56g7mkgct6xmxsa7b65jzj3ush3s55biplawywohsq@jpeg";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#ffffff!important;}</style>";
+
+campaignTrail_temp.modBoxTheme = {
+    "header_color": "#e30613",
+    "header_text_color": "#ffffff",
+    "description_text_color": "#000000",
+    "description_background_color": "#ffd8af",
+    "main_color": "#fff8c3",
+    "secondary_color": "#eaba3c",
+    "ui_text_color": "#FFFFFF"
+}
+
+HistHexcolour=["#DF8200","#E30613","#804040","#0080FF"];
+HistName=[" Recep Tayyip Erdoğan"," Kemal Kılıçdaroğlu"," Sinan Oğan", " Muharrem İnce"];
+        HistEV=[0,0,0,0];
+        HistPV=["27,133,849","24,595,178","2,831,239","235,783"];
+        HistPVP=["49.52%","44.88%","5.17%","0.43%"];
+
+//#endcode
