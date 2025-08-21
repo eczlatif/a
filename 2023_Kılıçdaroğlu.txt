@@ -4801,7 +4801,7 @@ campaignTrail_temp.state_issue_score_json = [
         "fields": {
             "state": 42101,
             "issue": 112,
-            "state_issue_score": 0,
+            "state_issue_score": -1,
             "weight": 1
         }
     },
@@ -4961,7 +4961,7 @@ campaignTrail_temp.state_issue_score_json = [
         "fields": {
             "state": 42141,
             "issue": 112,
-            "state_issue_score": 0,
+            "state_issue_score": -1,
             "weight": 1
         }
     },
@@ -7366,7 +7366,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 300,
             "state": 42101,
-            "state_multiplier": 100
+            "state_multiplier": 92
         }
     },
     {
@@ -7474,7 +7474,7 @@ campaignTrail_temp.candidate_state_multiplier_json = [
         "fields": {
             "candidate": 300,
             "state": 42141,
-            "state_multiplier": 58
+            "state_multiplier": 53
         }
     },
     {
@@ -8876,7 +8876,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 42654,
             "candidate": 300,
             "affected_candidate": 300,
-            "global_multiplier": -0.02
+            "global_multiplier": -0.002
         }
     },
     {
@@ -8986,7 +8986,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 42712,
             "candidate": 300,
             "affected_candidate": 300,
-            "global_multiplier": -0.005
+            "global_multiplier": -0.05
         }
     },
     {
@@ -9438,7 +9438,7 @@ campaignTrail_temp.answer_score_issue_json = [
         "fields": {
             "answer": 42712,
             "issue": 112,
-            "issue_score": 0.05,
+            "issue_score": 0.5,
             "issue_importance": 1
         }
     },
@@ -10575,7 +10575,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 42566,
             "candidate": 300,
-            "answer_feedback": "Nationalists see this as surrendering to terrorists while Kurds see this as a victory."
+            "answer_feedback": "Some people see this as you surrendering to terrorists."
         }
     },
     {
@@ -11106,7 +11106,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 42712,
             "candidate": 300,
-            "answer_feedback": "You lost a lost Kurdish voters with this answer."
+            "answer_feedback": "You lost a lot of Kurdish voters with this answer."
         }
     },
     {
